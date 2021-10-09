@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mdsets"
+version = "0.1.0"
+description = "A Python (and CLI) tool for unified medical dataset retrieval"
+authors = ["Sebastian Arango <sebasarango1180@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/sebasarango1180/mdsets"
+homepage = "https://github.com/sebasarango1180/mdsets"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^3.9.2"
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
