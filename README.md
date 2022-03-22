@@ -23,3 +23,17 @@ pip install mdsets
 ## Licensing
 
 *mdsets* is distributed under the terms of the MIT License, as stated in [the licensing section](LICENSE.md) of this project.
+
+## Citing *mdsets*
+
+If you find *mdsets* helpful for your research, please give it a mention!
+
+### BibTeX
+```
+@software{mdsets2022repo,
+	title        = {mdsets: A Python (and CLI) tool for unified medical dataset retrieval},
+	author       = {Sebastian Arango},
+	year         = 2022,
+	url          = {https://github.com/mdsets},
+	version      = {0.0.1}
+}
