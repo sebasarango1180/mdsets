@@ -31,7 +31,7 @@ If you find *mdsets* helpful for your research, please give it a mention!
 ### BibTeX
 ```
 @software{mdsets2022repo,
-	title        = {mdsets: A Python (and CLI) tool for unified medical dataset retrieval},
+	title        = {mdsets: a tool for unified medical dataset retrieval},
 	author       = {Sebastian Arango},
 	year         = 2022,
 	url          = {https://github.com/mdsets},
