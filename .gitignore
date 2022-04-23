@@ -442,6 +442,7 @@ pip-selfcheck.json
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
 
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -483,5 +484,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-.vscode
 # End of https://www.toptal.com/developers/gitignore/api/python,venv,virtualenv,visualstudiocode,pycharm+all,sublimetext,git,linux,windows,jupyternotebooks,dotenv,c++,c,cuda,terraform
