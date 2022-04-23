@@ -20,9 +20,12 @@ pip install mdsets
 
 ### Python
 
+## Contributing
+Interested in contributing to the project? Please refer to our [contributing guidelines](CONTRIBUTING) to see how to get involved!
+
 ## Licensing
 
-*mdsets* is distributed under the terms of the MIT License, as stated in [the licensing section](LICENSE.md) of this project.
+*mdsets* is distributed under the terms of the MIT License, as stated in [the licensing section](LICENSE) of this project.
 
 ## Citing *mdsets*
 
@@ -35,5 +38,5 @@ If you find *mdsets* helpful for your research, please give it a mention!
 	author       = {Sebastian Arango},
 	year         = 2022,
 	url          = {https://github.com/mdsets},
-	version      = {0.0.1}
+	version      = {0.1.0}
 }
