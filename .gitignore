@@ -483,4 +483,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+.vscode
 # End of https://www.toptal.com/developers/gitignore/api/python,venv,virtualenv,visualstudiocode,pycharm+all,sublimetext,git,linux,windows,jupyternotebooks,dotenv,c++,c,cuda,terraform

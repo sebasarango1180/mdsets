@@ -11,7 +11,7 @@ class ExampleSource(BaseSource):
         super().__init__()
 
     def download():
-        print('Downloading...')
+        print("Downloading...")
         sleep(2)
-        print('Done!')
+        print("Done!")
         return super.download()

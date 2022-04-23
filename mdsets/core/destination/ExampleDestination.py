@@ -6,11 +6,12 @@ class ExampleDestination(BaseDestination):
     """
     Example class to show how to implement from base destination, don't use.
     """
+
     def __init__(self) -> None:
         super().__init__()
 
     def upload(self):
-        print('Uploading...')
+        print("Uploading...")
         sleep(3)
-        print('Done!')
+        print("Done!")
         return super().upload()
