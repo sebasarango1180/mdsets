@@ -4,7 +4,7 @@ from mdsets.core.base.BaseDestination import BaseDestination
 
 class ExampleDestination(BaseDestination):
     """
-    Example class to show how to implement from base destination
+    Example class to show how to implement from base destination, don't use.
     """
     def __init__(self) -> None:
         super().__init__()
