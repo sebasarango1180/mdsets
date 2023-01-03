@@ -11,9 +11,17 @@ homepage = "https://github.com/sebasarango1180/mdsets"
 [tool.poetry.dependencies]
 python = "^3.8"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.format]
+optional = true
+
+[tool.poetry.group.format.dependencies]
 black = "^21.9b0"
 flake8 = "^3.9.2"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
 pytest = "^6.2.5"
 pytest-cov = "^3.0.0"
 
