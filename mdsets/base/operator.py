@@ -19,13 +19,5 @@ class BaseOperator(object, metaclass=ABCMeta):
         pass
 
     @abstractmethod
-    def get_source_hook(self, *args, **kwargs) -> Any:
-        pass
-
-    @abstractmethod
-    def get_destination_hook(self, *args, **kwargs) -> Any:
-        pass
-
-    @abstractmethod
-    def transfer(self, *args, **kwargs) -> List[str]:
+    def execute(self, *args, **kwargs) -> List[str]:
         pass
