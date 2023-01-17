@@ -1,13 +1,11 @@
 from abc import (
-    ABC,
-    abstractproperty,
+    ABCMeta,
     abstractmethod,
     abstractclassmethod,
     abstractstaticmethod,
 )
 
-
-class BaseDataset(ABC):
+class BaseDataset(object, metaclass=ABCMeta):
     """
     Abstract class to outline attributes and methods for mdsets Datasets.
     """
